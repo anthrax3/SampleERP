@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace MI.ERP.FrontEndPortal.Common.Logger
 {
-    interface ILogger
+    public interface ILogger
     {
     }
 }
