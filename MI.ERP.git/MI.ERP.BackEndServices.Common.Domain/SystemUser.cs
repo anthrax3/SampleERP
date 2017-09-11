@@ -6,7 +6,10 @@ using System.Threading.Tasks;
 
 namespace MI.ERP.BackEndServices.Common.Domain
 {
-    public class Class1
+    public class SystemUser : BaseEntity
     {
+        public string UserName { get; set; }
+        public string Pwd { get; set; }
+        public string UserRole { get; set; }
     }
 }

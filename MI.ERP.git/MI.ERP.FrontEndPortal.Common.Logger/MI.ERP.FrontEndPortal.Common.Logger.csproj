@@ -45,6 +45,12 @@
     <Compile Include="Logger.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\MI.ERP.FrontEndPortal.Common.Configurtions\MI.ERP.FrontEndPortal.Common.Configurtions.csproj">
+      <Project>{14239430-C369-436F-9A55-F1DA1DE5FB20}</Project>
+      <Name>MI.ERP.FrontEndPortal.Common.Configurtions</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

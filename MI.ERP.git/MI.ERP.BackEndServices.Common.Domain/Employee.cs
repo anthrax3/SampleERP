@@ -4,9 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace MI.ERP.FrontEndPortal.Common.Configurtions
+namespace MI.ERP.BackEndServices.Common.Domain
 {
-    public class Class1
+    public class Employee : BaseEntity
     {
+
     }
 }

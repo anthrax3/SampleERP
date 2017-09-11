@@ -8,5 +8,6 @@ namespace MI.ERP.FrontEndPortal.Common.Logger
 {
     public interface ILogger
     {
+        void LogInfor(string logData);
     }
 }

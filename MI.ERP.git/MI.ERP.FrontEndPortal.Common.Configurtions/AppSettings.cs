@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace MI.ERP.FrontEndPortal.Common.Configurtions
 {
-    class AppSettings
+    public class AppSettings : IAppSettings
     {
     }
 }

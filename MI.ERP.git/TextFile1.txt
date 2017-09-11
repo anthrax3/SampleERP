@@ -1,0 +1,12 @@
+
+
+Factory="Sys.BusinessService.WcfServiceFactory"
+
+using AutoMapper;  // Use 4.1
+  AutoMapper.Mapper.CreateMap<Customer, CustomerViewModel>()
+                .ForMember(dest => dest.Address, opt => opt.MapFrom(src => src.Address.Number.ToString() + " " + src.Address.Street.ToString()));
+
+            Customer cus = new Customer { Id = 10, Name = "Lilantha", Address = new Address { Number = "10", Street = " 2nd lane", City = " Colombo" } };
+
+
+            CustomerViewModel customerViewModel = Mapper.Map<Customer,CustomerViewModel>(cus);
