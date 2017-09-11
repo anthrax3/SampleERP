@@ -63,6 +63,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MI.ERP.FrontEndPortal.Web.T
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Other", "Other", "{91FFB317-2F51-4239-ABEF-65D8BD356C4B}"
 	ProjectSection(SolutionItems) = preProject
+		G:\Codesa.zip = G:\Codesa.zip
 		TextFile1.txt = TextFile1.txt
 	EndProjectSection
 EndProject
